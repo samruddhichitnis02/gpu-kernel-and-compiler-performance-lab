@@ -393,7 +393,7 @@ The experiments demonstrate several important GPU systems principles:
 - Sustained workloads may run below short benchmark performance because of power and thermal limits.
 - GPU performance depends on the interaction between hardware, software, workload shape, and numerical format.
 
-## Relevance to AI Compiler Engineering
+## Systems and Performance Focus
 
 This project develops practical experience with the performance layers involved in AI compiler and machine learning systems engineering:
 
