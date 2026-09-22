@@ -1,0 +1,9 @@
+Part D Naive Attention Quadratic Memory Fit
+============================================
+Number of successful measurements: 12
+Quadratic coefficient: 7.466507072672e-09 GB/token^2
+Quadratic coefficient: 8.017101 bytes/token^2
+Intercept: 0.021607 GB
+R-squared: 1.000000
+Largest tested success: 40960
+Smallest tested failure: 43008
