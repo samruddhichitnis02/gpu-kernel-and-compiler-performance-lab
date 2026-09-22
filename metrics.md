@@ -10,7 +10,7 @@ All measurements were collected on:
 - CUDA runtime: 12.4
 - Default power limit: 80 W
 
-## Table HW2.5.1 — Summary Table
+## Table HW2.5.1 : Summary Table
 
 | Measurement | Your GPU | Notes |
 |---|---:|---|
@@ -22,7 +22,7 @@ All measurements were collected on:
 | Steady-state / peak throughput | 94.33% | 21.47 TFLOPS final five-minute average / 22.76 TFLOPS initial peak |
 | Throttle onset | Power ceiling by approximately 10 seconds | Approximately 80 W power limit; no clear temperature-based throttling observed |
 
-## Part B — Precision Results
+## Part B : Precision Results
 
 | Precision | N = 1024 | N = 4096 | N = 8192 | N = 16384 |
 |---|---:|---:|---:|---:|
@@ -33,7 +33,7 @@ All measurements were collected on:
 
 The highest measured BF16 throughput was 24.25 TFLOPS at N = 4096.
 
-## Part C — Roofline Measurements
+## Part C : Roofline Measurements
 
 | Operation | Average time | Throughput or bandwidth | Arithmetic intensity |
 |---|---:|---:|---:|
@@ -44,7 +44,7 @@ The vector addition is memory-bound because it performs very little computation 
 
 The matrix multiplication is compute-bound because it performs many floating-point operations per byte transferred.
 
-## Part D — Attention Results
+## Part D : Attention Results
 
 ### Naive Attention
 
@@ -85,7 +85,7 @@ At sequence length 16,384:
 
 The fused implementation successfully ran through 163,840 tokens without an out-of-memory failure.
 
-## Part E — Sustained Load
+## Part E : Sustained Load
 
 The sustained workload repeatedly executed 4096 × 4096 FP16 matrix multiplication for approximately 20 minutes.
 
