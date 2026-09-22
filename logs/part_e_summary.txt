@@ -1,0 +1,11 @@
+Part E Sustained Load Summary
+============================
+
+Peak throughput in first 30 seconds: 22.7599 TFLOPS
+Steady-state throughput in final 5 minutes: 21.4701 TFLOPS
+Steady-state as percentage of peak: 94.33%
+Throughput decrease from peak: 5.67%
+Maximum temperature: 77.0 C
+Maximum power draw: 80.12 W
+Average GPU utilization: 96.26%
+Interpretation: The GPU reached its approximately 80 W power ceiling. Temperature-based throttling was not clearly observed because the maximum temperature was approximately 77 C.
