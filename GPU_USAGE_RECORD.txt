@@ -1,0 +1,20 @@
+GPU Usage Record
+
+GPU:
+NVIDIA GeForce RTX 3060 Laptop GPU
+
+GPU UUID:
+GPU-20606811-3bb2-e6b5-ec74-b477d9c1d1d8
+
+Usage type:
+Personal GPU
+
+GPU time consumed:
+Approximately 0.5 GPU-hours
+
+Experiments performed:
+- Precision matrix multiplication
+- Bandwidth and arithmetic intensity
+- Naive attention
+- Fused attention
+- Twenty-minute sustained thermal load
