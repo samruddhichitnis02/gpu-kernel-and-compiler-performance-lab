@@ -1,0 +1,13 @@
+gpu_name,gpu_uuid,method,sequence_length,batch_size,number_of_heads,head_dim,dtype,warmup_repetitions,timed_repetitions,status,average_latency_seconds,peak_memory_gb,error
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,naive_fp16,512,1,1,64,torch.float16,2,20,success,0.00028093440532684326,0.0091552734375,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,forced_fused_fp16,512,1,1,64,torch.float16,2,20,success,0.00013620480298995972,0.0081787109375,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,naive_fp16,1024,1,1,64,torch.float16,2,10,success,0.00013803199529647826,0.0123291015625,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,forced_fused_fp16,1024,1,1,64,torch.float16,2,10,success,8.210560083389283e-05,0.0084228515625,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,naive_fp16,2048,1,1,64,torch.float16,2,5,success,0.0003885056018829346,0.0245361328125,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,forced_fused_fp16,2048,1,1,64,torch.float16,2,5,success,0.00019537919759750368,0.0089111328125,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,naive_fp16,4096,1,1,64,torch.float16,2,3,success,0.0009867946306864421,0.0723876953125,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,forced_fused_fp16,4096,1,1,64,torch.float16,2,3,success,0.0004918613433837891,0.0098876953125,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,naive_fp16,8192,1,1,64,torch.float16,2,1,success,0.0032870399951934813,0.2618408203125,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,forced_fused_fp16,8192,1,1,64,torch.float16,2,1,success,0.001528831958770752,0.0118408203125,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,naive_fp16,16384,1,1,64,torch.float16,2,1,success,0.013230079650878907,1.0157470703125,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,forced_fused_fp16,16384,1,1,64,torch.float16,2,1,success,0.0048056321144104,0.0157470703125,

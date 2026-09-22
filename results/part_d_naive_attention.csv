@@ -1,0 +1,7 @@
+gpu_name,gpu_uuid,sequence_length,batch_size,head_dim,dtype,warmup_repetitions,timed_repetitions,status,average_latency_seconds,peak_allocated_gb,peak_reserved_gb,error
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,512,1,64,torch.float32,2,20,success,0.0003332495927810669,0.0103759765625,0.0234375,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,1024,1,64,torch.float32,2,10,success,0.00023172481060028077,0.0167236328125,0.021484375,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,2048,1,64,torch.float32,2,5,success,0.000544927978515625,0.0411376953125,0.052734375,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,4096,1,64,torch.float32,2,3,success,0.001795072078704834,0.1368408203125,0.1484375,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,8192,1,64,torch.float32,2,1,success,0.0066979842185974124,0.5157470703125,0.51953125,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,16384,1,64,torch.float32,2,1,success,0.02899046325683594,2.0235595703125,2.0390625,

@@ -1,0 +1,15 @@
+gpu_name,gpu_uuid,sequence_length,batch_size,head_dim,dtype,status,peak_memory_gb,error
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,18432,1,64,torch.float32,success,2.556762695,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,20480,1,64,torch.float32,success,3.15246582,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,22528,1,64,torch.float32,success,3.811523438,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,24576,1,64,torch.float32,success,4.53137207,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,26624,1,64,torch.float32,success,5.315063477,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,28672,1,64,torch.float32,success,6.16027832,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,30720,1,64,torch.float32,success,7.068481445,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,32768,1,64,torch.float32,success,8.03918457,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,34816,1,64,torch.float32,success,9.072387695,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,36864,1,64,torch.float32,success,10.16809082,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,38912,1,64,torch.float32,success,11.32727051,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,40960,1,64,torch.float32,success,12.54699707,
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,43008,1,64,torch.float32,out_of_memory,,"CUDA out of memory. Tried to allocate 6.89 GiB. GPU 0 has a total capacity of 6.00 GiB of which 0 bytes is free. Of the allocated memory 6.93 GiB is allocated by PyTorch, and 4.38 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
+NVIDIA GeForce RTX 3060 Laptop GPU,20606811-3bb2-e6b5-ec74-b477d9c1d1d8,45056,1,64,torch.float32,out_of_memory,,"CUDA out of memory. Tried to allocate 7.56 GiB. GPU 0 has a total capacity of 6.00 GiB of which 0 bytes is free. Of the allocated memory 7.61 GiB is allocated by PyTorch, and 0 bytes is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)"
